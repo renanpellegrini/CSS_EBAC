@@ -1,0 +1,102 @@
+* {
+    font-family: 'Segoe UI';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: black;
+    color: white;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0px auto;
+}
+
+.articles {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+    padding-top: 8px;
+}
+
+.articles article {
+    width: 30%;
+    margin-top: 8px;
+}
+
+.articles article h3 {
+    margin-top: 8px 8px;
+}
+
+section {
+    padding: 16px;
+}
+
+h2 {
+    margin: 16px 0px;
+}
+
+section h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 36px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1)
+}
+
+#sports h2 {
+    color: green;
+}
+
+#economy h2 {
+    color: orange;
+}
+
+#economy {
+    background-color:rgba(212, 209, 158, 0.6)
+}
+
+#technology {
+    background-color:rgba(133, 199, 229, 0.329)
+}
+
+#technology h2 {
+    color: blue;
+}
+
+#entertainment {
+    background-color: rgba(220, 20, 60, 0.15);
+}
+
+#entertainment h2 {
+    color: red;
+}
